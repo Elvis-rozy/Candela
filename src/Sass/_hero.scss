@@ -1,0 +1,187 @@
+.hero {
+  padding: 20vh 0 0 50px;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  height: 100dvh;
+  display: flex;
+  gap: 20px;
+
+  .bg1, .stamp, .bg2 {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .bg1 {
+    background: url("../images/home/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    //animation: bg1Backgrounds 80s ease-in-out forwards infinite;
+    filter: brightness(.3) blur(1px);
+    width: 50dvw;
+    height: 80dvh;
+    top: 30dvh;
+    left: 10dvw;
+  }
+
+  .bg2 {
+    background: url("../images/home/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    //animation: bg2Backgrounds 50s ease-in-out forwards infinite;
+    right: 0;
+  }
+
+  .stamp {
+    background: var(--textActive);
+    animation-delay: 2s;
+    z-index: 5;
+    top: 0;
+  }
+
+  .content {
+    position: absolute;
+    background: white;
+    z-index: 2;
+
+    .highlight {
+      color: green;
+    }
+  }
+
+  .heroHdr, .heroPg {
+    font-weight: 700;
+  }
+
+  .heroHdr {
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .heroPg {
+    font-size: 11px;
+  }
+
+  .heroBtn {
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    width: 150px;
+    height: 28px;
+
+    &:hover {
+      font-size: 13px;
+      img {
+        right: -3%;
+        width: 2dvw;
+        position: relative;
+        transition: .3s;
+      }
+    }
+  }
+
+  .circButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: fixed;
+    right: 10%;
+    bottom: 20%;
+    z-index: 5;
+    transition: .3s;
+
+    img {
+      width: 20px;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 4px 6px 0px rgb(0 0 0);
+
+      img {
+        animation: buttonDance .5s linear forwards;
+      }
+    }
+  }
+
+  .ltlt {
+    position: fixed;
+    left: 10%;
+    bottom: 10%;
+    z-index: 5;
+    transition: 0.3s;
+    background: transparent;
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width: 850px) { //mobile Only
+  .bg1 {
+    display: none;
+  }
+
+  .stamp {
+    width: 8dvw;
+    right: 4%;
+    animation: stampInMob .8s ease-out forwards;
+  }
+
+  .bg2 {
+    width: 100dvw;
+    height: 100dvh;
+    top: 8dvh;
+  }
+
+  .content {
+    left: 0;
+    padding: 25px 20px;
+  }
+
+  .heroHdr {
+    font-size: 20px;
+  }
+
+  .heroBtn {
+    right: -30%;
+  }
+}
+
+@media (min-width: 851px) { //desktop & tab Only
+  .stamp {
+    width: 4dvw;
+    right: 2%;
+    animation: stampIn .8s ease-out forwards;
+  }
+
+  .bg2 {
+    width: 60dvw;
+    height: 75dvh;
+    top: 13dvh;
+  }
+
+  .content {
+    left: 25%;
+    padding: 50px 40px;
+  }
+
+  .heroHdr {
+    font-size: 30px;
+  }
+
+  .heroBtn {
+    right: -38%;
+  }
+}
+
+@media (min-width: 1023px) { //desktop Only{
+
+}

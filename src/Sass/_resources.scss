@@ -1,0 +1,28 @@
+.headText {
+  font-size: 40px;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.threeCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 120px;
+  height: 400px;
+  gap: 30px;
+}
+
+.first {
+  margin-top: 80px;
+}
+
+.second {
+  margin-top: 40px;
+}
+
+.blockCard {
+  img {
+    width: 100%;
+  }
+}

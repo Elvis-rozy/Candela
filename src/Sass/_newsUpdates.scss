@@ -1,0 +1,36 @@
+.updates {
+  display: flex;
+
+  .btnLinks {
+    width: 20vw;
+    font-size: 15px;
+    height: 80vh;
+    display: flex;
+    padding: 60px 0 60px 6vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    transition: .3s;
+
+    li {
+      height: 30px;
+      width: 60%;
+    }
+  }
+
+  .display {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80vw;
+    gap: 25px;
+    margin: 30px 100px 30px 40px;
+  }
+}
+
+.active {
+  color: #004a80;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #004a80;
+  border-radius: 20px 0;
+}

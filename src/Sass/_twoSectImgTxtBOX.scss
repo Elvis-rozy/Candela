@@ -1,0 +1,23 @@
+.twoSectImgTxtBOX {
+  display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    margin: 50px 120px;
+
+    h3 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 9px;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 100%;
+    }
+    .img1 {
+      height: 70%;
+    }
+    .img2 {
+      height: 50%;
+    }
+}

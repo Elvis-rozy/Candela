@@ -1,0 +1,23 @@
+.card {
+  box-shadow: 7px 8px 20px 0px #0000003b;
+
+  .cardImg {
+    width: 100%;
+    height: 50%;
+  }
+  .cardHd {
+    padding: 0 15px;
+  }
+  .cardHd {
+    padding-top: 5px;
+    color: #025fa3;
+  }
+  .cardPg {
+    padding: 5px 15px;
+    font-size: 8px;
+  }
+  .cardTl {
+    padding: 0 15px 5px;
+    font-size: 8px;
+  }
+}

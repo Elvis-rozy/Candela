@@ -1,0 +1,53 @@
+.headerText {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  padding-left: 10vw;
+  text-transform: uppercase;
+  background: url("../images/2.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    background: linear-gradient(transparent, #003257);
+    height: 40vh;
+    left: 0;
+    bottom: -19%;
+    transform: rotate(-6deg);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 110%;
+    background: rgb(255 255 255);
+    height: 20vh;
+    left: -27px;
+    bottom: -26%;
+    transform: rotate(4deg);
+  }
+}
+
+.textBOX {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0 50px;
+  gap: 20px;
+
+  h4, p {
+    width: 50%;
+  }
+
+  .titleH4 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,28 @@
+.textImageBOX {
+  height: 45vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+
+  &:nth-child(2) :nth-child(1) {
+    order: 1;
+  }
+
+  .top {
+    font-size: 24px;
+    color: #165a8c69;
+    font-weight: 700;
+  }
+
+  .head {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #004a80;
+    width: 100%;
+  }
+
+  img {
+    height: 100%;
+  }
+}

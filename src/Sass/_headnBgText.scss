@@ -1,0 +1,28 @@
+.container {
+  height: 40vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+
+  .head {
+    font-size: 34px;
+    padding-top: 10vh;
+  }
+
+  .bigText {
+    position: absolute;
+    transition: 3s;
+    font-size: 26vh;
+    color: rgb(95 95 95 / 11%);
+  }
+}
+.slideOut {
+  transform: translateX(140%);
+  filter: blur(20px);
+}
+.slideIn {
+  transform: translateX(0);
+  filter: blur(0);
+}
