@@ -27,26 +27,26 @@ const Competency =()=> {
     <motion.div initial={{filter:"blur(100px)", height: 0, transition: {duration: .5}}} animate={{filter:"blur(0)", height: "100dvh", overflowX: "hidden"}} exit={{filter:"blur(100px)", height: 0, transition: {duration: .5}}}>
       <span className="overlay"><img src="./media/icons/services.svg" alt="about"/><h1>Specialization</h1></span>
       <MainLayout links={links}>
-        <SubHeading1 id="competencies" clas="subHeading1" head="Core Competencies" rightPg="lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"/>
+        <SubHeading1 id="competencies" clas="subHeading1" head="Core Competencies" rightPg="VIEW OUR AREAS OF EXPERTISE"/>
         <section className="grid">
           <div className="left">
-            <p>lorem ipsum lorem ipsum</p>
-            <img src="./media/images/07.jpg" alt=""/>
+            <p>Residential Buildings</p>
+            <img src="./media/images/01.jpg" alt=""/>
           </div>
           <div className="right">
-            <img src="./media/images/14.jpg" alt=""/>
-            <p>lorem ipsum lorem ipsum</p>
+            <img src="./media/images/uu.jpg" alt=""/>
+            <p>Commercial and industrial buildings</p>
           </div>
           <div className="left">
-            <p>lorem ipsum lorem ipsum</p>
-            <img src="./media/images/07.jpg" alt=""/>
+            <p>Government and Infrastructural projects</p>
+            <img src="./media/images/n.jpg" alt=""/>
           </div>
           <div className="right">
-            <img src="./media/images/14.jpg" alt=""/>
-            <p>lorem ipsum lorem ipsum</p>
+            <img src="./media/images/l.jpg" alt=""/>
+            <p>Landscaping</p>
           </div>
         </section>
-        <TextBOX header="We specialize in executing complex and bold engineering challenges" body="lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum"/>
+        <TextBOX header="We specialize in executing complex and bold engineering challenges" body="At Candela, we've built our reputation on delivering exceptional construction services that exceed our client's expectations. Our core competencies are the foundation of our success, and they enable us provide top-notch solutions for even the most complex projects."/>
         <CaseStudies/>
         <HeadnBgText id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
       </MainLayout>

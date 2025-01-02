@@ -30,7 +30,7 @@ const Hero=()=>{
       </div>
       <div id="resources" className="resourcesSection">
         <h5 className="resMainHd">Transforming spaces, exceeding expectations.</h5>
-        <p className="resMainPg">At Candela Constructions, we're dedicated to delivering exceptional construction services that bring your vision to life. With expertise, passion, and a commitment to excellence, we'll guide you through every step of the process.</p>
+        <p className="resMainPg">At Candela, we are dedicated to delivering exceptional construction services that bring your vision to life. With expertise, passion, and a commitment to excellence, we'll guide you through every step of the process.</p>
         <ArrayOfCards myRef={sectionRef} animateIn={animateIn}/>
       </div>
     </section>

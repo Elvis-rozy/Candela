@@ -4,7 +4,7 @@ import SubHeading1 from './subHeading1'
 const CaseStudies = () => {
   return (
     <div>
-      <SubHeading1 id="about" clas="subHeading1" leftPg="lorem Ipsum lorem ipsum lorem ipsum lorem Ipsum lorem ipsum lorem ipsum ipsum lorem ipsum" head="case studies" rightPg="lorem Ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum"/>
+      <SubHeading1 id="about" clas="subHeading1" head="case studies" rightPg="Here are some examples of successful projects we've completed"/>
       <ImgGallery1/>
     </div>
   )

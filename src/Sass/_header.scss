@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background: white;
 
   .desktopNav {
 
@@ -18,7 +19,7 @@ header {
 
       .linkClass {
         font-family: "PoppinsLight";
-        color: var(--links);
+        color: #91b7e1;
         transition: .3s;
         font-size: 13px;
 

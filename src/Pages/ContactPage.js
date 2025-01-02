@@ -34,7 +34,7 @@ const Contact =()=> {
           </div>
           <div className="inputDetails">
             <ContactForm tabHead={tabHead} tabPG={tabPG} claz="form"/>
-            <img className="right" src="./media/images/1.jpg" alt=""/>
+            <img className="right" src="./media/images/hg.jpg" alt=""/>
           </div>
         </section>
       </MainLayout>

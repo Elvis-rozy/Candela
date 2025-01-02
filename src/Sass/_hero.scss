@@ -15,11 +15,11 @@
   }
 
   .bg1 {
-    background: url("../images/home/1.jpg");
+    //background: url("../images/home/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    //animation: bg1Backgrounds 80s ease-in-out forwards infinite;
+    animation: bg1Backgrounds 80s ease-in-out forwards infinite;
     filter: brightness(.3) blur(1px);
     width: 50dvw;
     height: 80dvh;
@@ -28,18 +28,18 @@
   }
 
   .bg2 {
-    background: url("../images/home/1.jpg");
+    //background: url("../images/home/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    //animation: bg2Backgrounds 50s ease-in-out forwards infinite;
+    animation: bg2Backgrounds 50s ease-in-out forwards infinite;
     right: 0;
   }
 
   .stamp {
     background: var(--textActive);
     animation-delay: 2s;
-    z-index: 5;
+    z-index: 30;
     top: 0;
   }
 

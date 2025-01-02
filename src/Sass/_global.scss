@@ -27,7 +27,7 @@
 :root {
   --body: #fff;
   --textActive: #084f83;
-  --links: #b6b8ba;
+  --links: #fff;
 }
 
 body {
@@ -188,11 +188,11 @@ button {
   }
 
   .right{
-    width: 13dvw;
+    width: 16dvw;
   }
 
   .left{
-    width: 16dvw;
+    width: 13dvw;
   }
 }
 
@@ -256,6 +256,15 @@ button {
   h1 {
     color: #1de8f1;
     font-size: 30px;
+  }
+}
+
+.lineUp {
+  margin: 0 100px;
+
+  h2 {
+    color: black;
+    margin-bottom: 20px;
   }
 }
 

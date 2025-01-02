@@ -4,7 +4,7 @@ const TextnImage =({year, title, body, image, alt})=> {
       <div>
         <p className="top">{year}</p>
         <h5 className="head">{title}</h5>
-        <p>{body}</p>
+        <p className="body">{body}</p>
       </div>
       <img src={image} alt={alt}/>
     </article>
