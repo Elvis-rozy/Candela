@@ -163,6 +163,11 @@ button {
     gap: 30px;
     font-size: 14px;
     position: relative;
+
+    P {
+      text-transform: uppercase;
+      font-weight: 700;
+    }
   }
 
   .right{
