@@ -8,19 +8,15 @@
     display: grid;
     gap: 5px;
     grid-template-columns: .9fr 1.5fr 1.3fr;
-    margin: 0 8%;
 
     &:nth-child(2) .imgA {
       order: 3;
-      //width: 350px;
     }
     &:nth-child(2) .imgB {
       order: 2;
-      width: 450px;
     }
     &:nth-child(2) .textBox {
       order: 1;
-      width: 350px;
     }
 
     img {
@@ -30,7 +26,6 @@
 
     .textBox {
       padding: 20% 10% 0;
-      font-size: 18px;
       text-transform: uppercase;
       font-weight: 700;
       position: relative;
@@ -50,15 +45,71 @@
         text-transform: lowercase;
         bottom: 0;
         color: #025fa3;
-        font-size: 11px;
         left: 0;
 
         h4 {
           font-style: normal;
-          font-size: 25px;
         }
       }
     }
 
   }
+}
+
+@media (max-width: 850px) { //mobile Only
+  .imgGallery {
+  
+    .set {
+      margin: 0 2dvh;
+      
+      .imgA, .imgB {
+        height: 100%;
+      }
+
+      .textBox {
+        width: 40dvw;    
+        font-size: 12px;
+
+        h2 {
+          font-size: 16px;
+        }
+      
+        span {
+          font-size: 8px;
+
+          h4 {
+            font-size: 16px;
+          }
+
+          p {
+            width: 75%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 851px) { //desktop & tab Only
+  .imgGallery{
+
+    .set {
+      margin: 0 8%;
+
+      .textBox {
+        font-size: 18px;
+
+        span {
+          font-size: 11px;
+
+          h4 {
+            font-size: 25px;
+          }
+        }
+      }
+      &:nth-child(2) .textBox {
+        width: 350px;
+      }
+    }
+  } 
 }

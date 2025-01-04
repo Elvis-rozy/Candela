@@ -1,33 +1,69 @@
 .textImageBOX {
-  height: 45vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 40px;
-  gap: 50px;
 
   &:nth-child(2) :nth-child(1) {
     order: 1;
   }
 
   .top {
-    font-size: 16px;
     color: #165b8c8e;
     font-weight: 700;
   }
 
   .head {
-    font-size: 35px;
     text-transform: uppercase;
     color: #004a80;
     width: 100%;
   }
 
-  .body {
-    font-size: 12px;
-  }
-
   img {
     height: 100%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 851px) { //desktop & tab Only
+
+  .textImageBOX {
+    flex-direction: row;
+    gap: 50px;
+    height: 45dvh;
+    margin-bottom: 40px;
+
+    .top {   
+      font-size: 16px;
+    }
+    .head {
+      font-size: 35px;
+    }
+    .body {
+      font-size: 12px;
+    }
+  } 
+}
+
+@media (max-width: 850px) { //mobile Only
+
+  .textImageBOX {
+    flex-direction: column;
+    gap: 25px;
+    height: auto;
+    margin-bottom: 6dvh;
+
+    div {
+      order: 2;
+    }
+
+    .top {   
+      font-size: 13px;
+    }
+    .head {
+      font-size: 25px;
+    }
+    .body {
+      font-size: 10px;
+    }
   }
 }

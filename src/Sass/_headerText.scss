@@ -1,9 +1,7 @@
 .headerText {
   position: relative;
-  height: 50vh;
   display: flex;
   align-items: center;
-  font-size: 40px;
   padding-left: 10vw;
   text-transform: uppercase;
   background: url("../images/2.jpg");
@@ -40,14 +38,46 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 30px 0 50px;
   gap: 20px;
+}
 
-  h4, p {
-    width: 50%;
+@media (min-width: 851px) { //desktop & tab Only
+
+  .headerText {
+    font-size: 40px;
+    height: 50vh;
   }
 
-  .titleH4 {
-    font-size: 30px;
+  .textBOX {
+    margin: 30px 0 50px;
+
+    .titleH4 {
+      font-size: 30px;
+    }
+    h4, p {
+      width: 50%;
+    }
+  }
+  
+}
+
+@media (max-width: 850px) { //mobile Only
+
+  .headerText {
+    font-size: 28px;
+    height: 40dvh;
+  }
+  
+  .textBOX {
+    margin: 2dvh 0 10dvh;
+
+    h4 {
+      font-size: 20px;
+      width: 75%;
+    }
+    p {
+      width: 85%;
+      font-size: 12px;
+    }
   }
 }

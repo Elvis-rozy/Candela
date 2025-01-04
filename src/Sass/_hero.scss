@@ -15,7 +15,6 @@
   }
 
   .bg1 {
-    //background: url("../images/home/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -28,7 +27,6 @@
   }
 
   .bg2 {
-    //background: url("../images/home/1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,7 +129,7 @@
 
   .stamp {
     width: 8dvw;
-    right: 4%;
+    right: 10%;
     animation: stampInMob .8s ease-out forwards;
   }
 
@@ -180,8 +178,4 @@
   .heroBtn {
     right: -38%;
   }
-}
-
-@media (min-width: 1023px) { //desktop Only{
-
 }

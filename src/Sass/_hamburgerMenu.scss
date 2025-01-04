@@ -21,8 +21,9 @@ nav {
 
   .hamburger-open {
     span{
+      background: white;
       &:nth-child(1) {
-        transform: rotate(42deg);
+        transform: rotate(48deg);
         transform-origin: 3px;
       }
 
@@ -31,7 +32,7 @@ nav {
       }
 
       &:nth-child(3) {
-        transform: rotate(-42deg);
+        transform: rotate(-48deg);
         transform-origin: 3px;
       }
     }
@@ -43,13 +44,13 @@ nav {
 
   .mobileMenu {
     display: flex;
-    background: #48668b;
+    background: #48668bcf;
+    height: 110vh;
     flex-direction: column;
-    height: 100vh;
     transition: .3s;
     font-size: 14px;
     font-weight: 700;
-    top: 0;
+    top: -5dvh;
     padding: 20vh 0;
     width: 50vw;
     position: fixed;
@@ -73,7 +74,8 @@ nav {
     }
   }
   .hamburger-open {
-    right: 0;
+    box-shadow: -8px 0px 20px 0px black;
+    right: 2%;
   }
 
   .hamburger-closed {

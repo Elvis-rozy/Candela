@@ -1,8 +1,7 @@
 .headText {
-  font-size: 40px;
-    color: white;
-    position: relative;
-    text-transform: uppercase;
+  color: white;
+  position: relative;
+  text-transform: uppercase;
 }
 
 .threeCard {
@@ -24,5 +23,17 @@
 .blockCard {
   img {
     width: 100%;
+  }
+}
+@media (max-width: 850px) { //mobile Only
+
+  .headText {
+    font-size: 28px;
+  }
+}
+@media (min-width: 851px) { //desktop & tab Only
+
+  .headText {
+    font-size: 40px;
   }
 }

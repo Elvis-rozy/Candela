@@ -2,7 +2,6 @@
   position: relative;
   transition: 1.5s;
   display: flex;
-  margin: 50px;
   width: 100%;
   justify-content: center;
   top: 12dvh;
@@ -20,13 +19,16 @@
     &:nth-child(2), &:nth-child(4) {
       margin-top: 4dvh;
     }
+
     &:nth-child(2) {
       background: #3391a1;
       animation-delay: .3s;
     }
+
     &:nth-child(3) {
       animation-delay: .6s;
     }
+
     &:last-child {
       background: lightgray;
       color: #0e5865;
@@ -71,6 +73,7 @@
     .column-reverse {
       flex-direction: column-reverse;
     }
+    
     .column {
       flex-direction: column;
     }
@@ -81,6 +84,7 @@
   .arrayOfCards {
     flex-direction: column;
     height: auto;
+    margin: 0 0 10dvh;
 
     .cards {
       margin: 20px;
@@ -93,6 +97,7 @@
   .arrayOfCards {
     flex-direction: row;
     height: 72dvh;
+    margin: 10dvh;
 
     .cards {
       width: 20dvw;
