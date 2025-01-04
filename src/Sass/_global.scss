@@ -153,6 +153,7 @@ button {
   position: relative;
   transition: 1.5s;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 
@@ -297,13 +298,13 @@ button {
   }
 
   .grid .left {
-    width: 22dvw;
+    width: 40dvw;
     gap: 10px;
     font-size: 10px;
   }
 
   .grid .right {
-    width: 20dvw;
+    width: 45dvw;
     gap: 10px;
     font-size: 10px;
   }
