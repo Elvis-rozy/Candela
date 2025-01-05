@@ -1,11 +1,9 @@
 .contactSection {
-  padding: 11dvh 10dvw;
   background: #edecec;
   position: relative;
 
   .tabs {
     display: flex;
-    justify-content: center;
     gap: 10px;
   }
 
@@ -34,7 +32,42 @@
 .inputDetails .right {
   position: absolute;
   width: 50dvw;
-  height: 55dvh;
   bottom: 5%;
   right: 0;
+}
+
+@media (min-width: 851px) { //desktop & tab Only
+  .contactSection {
+    padding: 11dvh 8dvw;
+  }
+
+  .tabs {
+    overflow: hidden;
+    justify-content: center;
+  }
+
+  .btnSize  {
+    width: auto;
+  }
+
+  .right {
+    display: flex;
+  }
+}
+
+@media (max-width: 850px) { //mobile Only
+
+  .contactSection {
+    padding: 11dvh 3dvw;
+  }
+  .tabs {
+    overflow: scroll;
+    justify-content: start;
+  }
+  .btnSize  {
+    width: 40dvw;
+  }
+  .right {
+    display: none;
+  }
 }
