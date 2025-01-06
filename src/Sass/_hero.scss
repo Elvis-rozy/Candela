@@ -51,6 +51,21 @@
     }
   }
 
+  .workBtn {
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    z-index: 2;
+    padding: 3dvh;
+    gap: 3dvw;
+    animation: slideIn 2s ease-in forwards;
+    animation-delay: 3s;
+
+    img {
+      width: 3dvh;
+    }
+  }
+
   .heroHdr, .heroPg {
     font-weight: 700;
   }
@@ -123,6 +138,10 @@
 }
 
 @media (max-width: 850px) { //mobile Only
+  .workBtn {
+    font-size: 3dvh;
+  }
+
   .bg1 {
     display: none;
   }
@@ -154,6 +173,10 @@
 }
 
 @media (min-width: 851px) { //desktop & tab Only
+  .workBtn {
+    font-size: 4dvh;
+  }
+
   .stamp {
     width: 4dvw;
     right: 2%;

@@ -24,7 +24,7 @@ const News =()=> {
     sectionObserver.observe(sectionRef.current);
   }, []);
 
-  const links = [{id: 0, name: "Core Competencies", address: "/competencies"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "Contact", address: "/contact"}];
+  const links = [{id: 0, name: "Our Work", address: "/work"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "Contact", address: "/contact"}];
 
   return (
     <motion.div initial={{filter:"blur(100px)", height: 0, transition: {duration: .5}}} animate={{filter:"blur(0)", height: "100dvh", overflowX: "hidden"}} exit={{filter:"blur(100px)", height: 0, transition: {duration: .5}}}>

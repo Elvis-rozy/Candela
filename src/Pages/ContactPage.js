@@ -22,7 +22,7 @@ const Contact =()=> {
     setTabPG(input2);
   }
 
-  const links = [{id: 0, name: "Core Competencies", address: "/competencies"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "News", address: "/news"}];
+  const links = [{id: 0, name: "Our Work", address: "/work"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "News", address: "/news"}];
 
   return (
     <motion.div initial={{filter:"blur(100px)", height: 0, transition: {duration: .5}}} animate={{filter:"blur(0)", height: "100dvh", overflowX: "hidden"}} exit={{filter:"blur(100px)", height: 0, transition: {duration: .5}}}>

@@ -26,6 +26,7 @@ const Hero=()=>{
           <p className="heroPg">Constructing Excellence, from the ground up.</p>
           <Button buttonType=""  buttonClass="heroBtn" linkAddress="/contact"  iconLink="./media/icons/arrow-right.svg" iconAlt="">Let's Build</Button>
         </article>
+        <Button buttonType=""  buttonClass="workBtn" linkAddress="/work"  iconLink="./media/icons/arrow-right.svg" iconAlt="">Our Work</Button>
         <Button buttonType=""  buttonClass="circButton ctct" linkAddress="/contact"  iconLink="./media/icons/telephone.svg" iconAlt=""/>
       </div>
       <div id="resources" className="resourcesSection">

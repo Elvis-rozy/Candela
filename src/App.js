@@ -18,7 +18,7 @@ function App() {
     sectionObserver.observe(sectionRef.current);
   }, []);
 
-  const links = [{id: 0, name: "Core Competencies", address: "/competencies"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "News", address: "/news"}, {id: 3, name: "Contact", address: "/contact"}];
+  const links = [{id: 0, name: "Our Work", address: "/work"}, {id: 1, name: "About", address: "/about"}, {id: 2, name: "News", address: "/news"}, {id: 3, name: "Contact", address: "/contact"}];
 
   return (
     <MainLayout links={links}>

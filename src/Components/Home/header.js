@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-const MOBILELINKS = [{id: 0, name: "Home", address: "/"}, {id: 1, name: "Core Competencies", address: "/competencies"}, {id: 2, name: "About", address: "/about"}, {id: 3, name: "News", address: "/news"}, {id: 4, name: "Contact", address: "/contact"}], home ="/";
+const MOBILELINKS = [{id: 0, name: "Home", address: "/"}, {id: 1, name: "Our Work", address: "/work"}, {id: 2, name: "About", address: "/about"}, {id: 3, name: "News", address: "/news"}, {id: 4, name: "Contact", address: "/contact"}], home ="/";
 const Header=({links})=>{
   const DESKTOPNAV = links.map((link)=>(<li key={link.id} className="link"><Link className="linkClass" to={link.address}>{link.name}</Link><span className="underline"></span></li>)), MOBILEMENU = MOBILELINKS.map((link)=>(<li key={link.id} className="link" onClick={()=>{setHamburgerState("hamburger-closed");}}><Link className="linkClass" to={link.address}>{link.name}</Link></li>)), [open, setOpen] = useState("false"), [hamburgerState, setHamburgerState] = useState("hamburger-closed");
 
