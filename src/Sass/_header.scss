@@ -18,10 +18,10 @@ header {
       justify-content: center;
 
       .linkClass {
-        font-family: "PoppinsLight";
-        color: #91b7e1;
+        color: #659edd;
+        font-family: PoppinsLight;
+        font-size: 15px;
         transition: .3s;
-        font-size: 13px;
 
         &:hover {
           color: var(--textActive);
