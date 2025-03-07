@@ -32,17 +32,11 @@ const News =()=> {
       <MainLayout links={links}>
         <HeaderText text="news & happenings"/>
         <section className="updates">
-          <ul className="btnLinks">
-            <li className="active">All</li>
-            <li>Company</li>
-            <li>Social</li>
-            <li>Projects</li>
-          </ul>
           <div className="display">
             {newsUpdates.map((update=><Card key={update} claz="card"/>))}
           </div>
         </section>
-        <HeadnBgText id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
+        <HeadnBgText address="/contact" id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
       </MainLayout>
     </motion.div>
   )

@@ -48,7 +48,7 @@ const Competency =()=> {
         </section>
         <TextBOX header="We specialize in executing complex and bold engineering challenges" body="At Candela, we've built our reputation on delivering exceptional construction services that exceed our client's expectations. Our core competencies are the foundation of our success, and they enable us provide top-notch solutions for even the most complex projects."/>
         <CaseStudies/>
-        <HeadnBgText id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
+        <HeadnBgText address="/contact" id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
       </MainLayout>
     </motion.div>
   )

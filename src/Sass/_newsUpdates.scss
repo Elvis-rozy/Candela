@@ -62,12 +62,12 @@
     .display {
       display: flex;
       flex-wrap: wrap;
-      gap: 2dvh;
-      margin: 3dvh;
+      gap: 1.5dvh;
+      margin: 3dvh 3dvw;
       justify-content: space-between;
 
       .card {
-        width: 40dvw;
+        width: 45dvw;
         box-shadow: 3px 2px 6px 0px rgba(0, 0, 0, 0.231);
       }
     }

@@ -44,7 +44,7 @@ const About =()=> {
           <h2 className='headText'>Our Team</h2>
           {ceoArray.map((personnel=><TextnImage key={personnel.id} year={personnel.role} title={personnel.head} body={personnel.body} image={personnel.imgSrc} alt={personnel.imgAlt}/>))}
         </div>
-        <HeadnBgText id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
+        <HeadnBgText address="/contact" id="contact" myRef={sectionRef} slideIn={slideIn}>Contact</HeadnBgText>
       </MainLayout>
     </motion.div>
   )

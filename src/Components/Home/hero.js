@@ -20,7 +20,7 @@ const Hero=()=>{
   return (
     <section>
       <div className="hero">
-        <span className="bg1"></span><span className="stamp"></span><span className="bg2"></span>
+        <span className="bg1"></span><span className="stamp"><img src="./media/logo/candela2.png" alt="logo"/></span><span className="bg2"></span>
         <article className="content">
           <h1 className="heroHdr">Your <strong className="highlight">Vision-</strong><br/>-Our <strong className="highlight">Blueprint.</strong>  </h1>
           <p className="heroPg">Constructing Excellence, from the ground up.</p>

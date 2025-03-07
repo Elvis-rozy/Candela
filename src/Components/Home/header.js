@@ -7,7 +7,7 @@ const Header=({links})=>{
 
   return (
     <header className="header" id="header">
-      <Link to={home}><img className="logo" src="./media/logo/kandela-svg.png" alt=""/></Link>
+      <Link to={home}><img className="logo" src="./media/logo/candela.png" alt=""/></Link>
       <nav>
         <ul id="desktopNav" className="desktopNav">{DESKTOPNAV}</ul>
         <article className={`${hamburgerState} hamburger`}
