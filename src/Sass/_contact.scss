@@ -18,8 +18,8 @@
 }
 
 .btnSize {
-  padding: 6px 15px;
-  font-size: 10px;
+  padding: 8px 15px;
+  font-size: 12px;
 }
 
 .inputDetails .blockCard {
@@ -65,7 +65,7 @@
     justify-content: start;
   }
   .btnSize  {
-    width: 40dvw;
+    width: max-content;
   }
   .right {
     display: none;
